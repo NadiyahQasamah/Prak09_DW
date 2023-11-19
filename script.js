@@ -31,8 +31,6 @@ window.addEventListener('DOMContentLoaded', (event) => {
         control.addEventListener('click', (e) => {
             current = parseInt(e.target.getAttribute('data-index'));
             showImages(current);
-            startAutoSlide();
         });
     })
-    startAutoSlide();
 })
